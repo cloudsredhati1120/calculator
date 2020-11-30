@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: NodeTool@0
+#CI AZURE GITHUB
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
